@@ -1,0 +1,45 @@
+/* ---logos style--- */
+.social-media-icons {
+    list-style: none;
+    padding: 0;
+}
+
+main .social-media-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .social-media-icons li {
+    margin: 0 10px;
+}
+
+/* ---footer---- */
+footer {
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+
+footer ul li {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    line-height: 2em;
+}
+
+footer ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+footer input {
+    max-width: 100%;
+    padding: .5em;
+}
+
