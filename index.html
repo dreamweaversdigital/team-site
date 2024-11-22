@@ -3,23 +3,361 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Weavers</title>
+    <title>Dreamweavers website - Site Plan</title>
+    <meta name="description" content="This is the site plan for the Dreamweavers company">
+    <meta name="author" content="team Dreamweavers">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+
+    <!-- style links -->
+    <link rel="stylesheet" href="Styles/root.css">
+    
+    <!-- functionality or javascript -->
+    <script src="Scripts/getdate.js" defer></script>
 </head>
 <body>
     <header>
-        <div><img src="" alt="Dream weavers' Logo"></div>
-        <div>
-            <nav>
-
-            </nav>
+        <div class="logo-container">
+            <img src="" alt="Dream weavers' Logo">
+            <h1>Dream Weavers</h1>
         </div>
+        <nav>   
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="#" title="About Us">About Us</a></li>
+                <li><a href="#" title="Our Services">Our Services</a></li>
+                <li><a href="#" title="More Links">More Links &#9662;</a></li>
+            </ul>
+
+            <!-- the code below will be taken off and populated dynamically in javascript file later -->
+            <div class="first-header-container">
+                <section class="main-pages">
+                    <p>Main Pages</p>
+                    <ul>
+                        <li><a href="#">Service One</a></li>
+                        <li><a href="#">Service two</a></li>
+                        <li><a href="#">Service three</a></li>
+                        <li><a href="#">Service four</a></li>
+                    </ul>
+                </section>
+                <section class="additional-services">
+                    <p>Additional Services</p>
+                    <ul>
+                        <li><a href="#">Service five</a></li>
+                        <li><a href="#">Service six</a></li>
+                        <li><a href="#">Service seven</a></li>
+                        <li><a href="#">Service eight</a></li>
+                    </ul>
+                </section>                    
+                <section class="contact-us">
+                    <p>Contact Us</p>
+                    <ul>
+                        <li><a href="#">Service nine</a></li>
+                        <li><a href="#">Service ten</a></li>
+                        <li><a href="#">Service eleven</a></li>
+                        <li><a href="#">Service twelve</a></li>
+                    </ul>
+                </section>
+                <section class="more-info">
+                    <p>More Information</p>
+                    <ul>
+                        <li><a href="#">Service thirteen</a></li>
+                        <li><a href="#">Service fourteen</a></li>
+                        <li><a href="#">Service fifteen</a></li>
+                        <li><a href="#">Service sixteen</a></li>
+                    </ul>
+                </section>
+                <section class="ready-action">
+                    <p>Ready to take action?</p>
+                    <li><a href="#">sign up today</a></li>
+                    <ul>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Learn</a></li>
+                    </ul>
+                </section>                                
+            </div>
+            <div>
+                <button type="button" class="start">start</button>
+                <button type="button" class="Go">Go</button>
+            </div>              
+        </nav>
     </header>
+
     <main>
-        <h1>Hello Dream Weavers!</h1>
-        <p>Cecil, Fii, Ericus</p>
+        <!-- contents on page are going to be grouped in sections -->
+
+        <!-- ---------SECTION ONE-------- -->
+        <!-- ** innovate ** -->
+        <section id="innovate">
+            <div class="innovate-content">
+                <h4>Innovate</h4>
+                <h1>Your Vision, Our Mission</h1>
+                <aside>
+                    <p>At Dream Weaver, we specialize in transforming ideas into impactful marketing strategies. Our dedicated team is committed to delivering tailored solutions that resonate with your audience</p>
+                    <button type="button">Learn More</button>
+                    <button type="button">Contact</button>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ---------SECTION TWO-------- -->
+        <!-- ** Service ** -->
+        <section id="service">
+            <div class="service-content">
+                <h4>Services</h4>
+                <h1>Explore Our Comprehensive Marketing Solutions</h1>
+                <p>At Dream Weaver, we specialize in crafting tailored marketing strategies that elevate your brand. Our diverse range of services ensures that we meet your unique needs and goals</p>
+
+                <!-- service container one -->
+                <div class="service-container-one">
+                    <article>
+                        <h3>Stategic Marketing planning and Consultation</h3>
+                        <p>We provide expert guidance to shape your marketing Vision</p>
+                    </article>
+                    <article>
+                        <h3>Creative Content Development and Management</h3>
+                        <p>Our team creates engaging content that resonates with your audience</p>
+                    </article>
+                    <article>
+                        <h3>Digital Marketing and Social Media Strategies</h3>
+                        <p>We harness the power of digital platforms to boost your visibility</p>
+                    </article>
+                </div>
+                <button type="button"> Learn More</button>
+                <button type="button"> Sign up ></button>
+
+                <!-- service container two -->
+                <div class="service-container-two">
+                    <h2>Transform Your Brand with Our Innovative Media Solutions</h2>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h3>Engage Your Audience with Tailored Marketing Strategies</h3>
+                                <p>Our services are designed to elevate your brand's presence and impact.</p>
+                                <a href="#">Learn More ></a>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h3>Drive Results with Data-Driven Marketing Insights</h3>
+                                <p>We leverage analytics to optimize your campaigns for maximum effectiveness.</p>
+                                <a href="#">Sign up ></a>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h3>Creative Content That Captivates and Converts</h3>
+                                <p>Our team crafts compelling narratives that resonate with your target audience.</p>
+                                <a href="#">Get Started ></a>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------SECTION THREE-------- -->
+        <!-- ** Process ** -->
+        <section id="process">
+            <div class="proces-content">
+                <h4>Process</h4>
+                <h1>Our Unique Approach to Marketing Success</h1>
+                <p>At Dream Weaver, we belive in a tailored approach, Our methoddology combines creativity with strategic planning to deliver exceptional results</p>
+                <div class="process-container">
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h2>Step-by-Step Engagement Process</h2>
+                                <p>We guide you through each phase of our proces.</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h2>Collaboration and Communication at Every Stage</h2>
+                                <p>Your input is crucial for our success.</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h2>Results-Driven Strategies Tailored to You</h2>
+                                <p>We focus on delivery measurable outcomes.</p>                                
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+                <button type="button"> Learn More</button>
+                <button type="button"> Sign Up ></button>
+            </div>            
+        </section>
+
+        <!-- ---------SECTION FOUR-------- -->
+        <!-- ** Our team section/portfolio ** -->
+        <section id="team">
+            <div class="team-content">
+                <h4>Together</h4>
+                <h1>Our Team</h1>
+                <p>Meet the passionate individuals behind Dream Weaver.</p>
+
+                <!-- team members -->
+                <div class="team-members">
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h4>Cecil Ewusie</h4>
+                                <h5>Technical Expert/ Social Media/ Co-Manager</h5>
+                                <p>Cecil ensures our technology runs smoothly and supports our creative endeavors.</p>
+                                <p>Cecil manages our social media presence, engaging followers and building community.</p>
+                            </figcaption>
+                        </figure>
+                        <ul class="social-media-icons">
+                            <li><a href="#"><img src="images/webpLogos/linkedin.webp" alt="Linkedin account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/twitter.webp" alt="twitter account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/facebook.webp" alt="facebook account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/instagram.webp" alt="instagram account" width="20" height="20"></a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h4>Joseph Fiifi Mensah</h4>
+                                <h5>Technical Expert/ Design Lead/ Co-Manager</h5>
+                                <p>Fii ensures our technology runs smoothly and supports our creative endeavors.</p>
+                                <p>Fii designs visually stunning graphics that capture attention and convey messges effectively.</p>
+                            </figcaption>
+                        </figure>
+
+                        <ul class="social-media-icons">
+                            <li><a href="#"><img src="images/webpLogos/linkedin.webp" alt="Linkedin account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/twitter.webp" alt="twitter account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/facebook.webp" alt="facebook account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/instagram.webp" alt="instagram account" width="20" height="20"></a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="" alt="" width="400" height="200">
+                            <figcaption>
+                                <h4>Eric Antwi</h4>
+                                <h5>Co-Manager/ Social Media</h5>
+                                <p>Eric coordinates projects, ensuring timely delivery and exceptioanl quality.</p>
+                                <p>Eric manages our social media presence, engaging followers and building community.</p>
+                            </figcaption>
+                        </figure>
+                        <ul class="social-media-icons">
+                            <li><a href="#"><img src="images/webpLogos/linkedin.webp" alt="Linkedin account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/twitter.webp" alt="twitter account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/facebook.webp" alt="facebook account" width="20" height="20"></a></li>
+                            <li><a href="#"><img src="images/webpLogos/instagram.webp" alt="instagram account" width="20" height="20"></a></li>
+                        </ul>
+                    </article>
+                </div>
+
+                <!-- hiring -->
+                <div class="hiring">
+                    <h3>We're hiring</h3>
+                    <p>Discover your potential with us at Dream Weaver</p>
+                    <button type="button">Open positions</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------SECTION ONE-------- -->
+        <!-- ** call to action **  -->
+        <section id="call-to-action">
+            <div class="call-to-action-content">
+                <h2>Let's Elevate Your Brand Together</h2>
+                <p>Contust us today to discover how our services can transform your marketing strategy</p>
+                <button type="button">Learn More</button>
+                <button type="button"> Get Started</button>
+            </div>
+        </section>
     </main>
+
+    <!-- ** Footer ** -->
     <footer>
-        
-    </footer>
+        <!-- first container -->
+        <div class="first-footer-container">
+
+            <!-- forms -->
+            <section class="footer-form">
+                <p>Logo</p>
+                <p>Subscribe to our newsletter for the latest features, upadate, and exclusive offers</p>
+                <form action="" method="get">
+                    <label><input type="email" name="email" placeholder="Your Email Here" required></label>
+                    <input type="submit" value="Join">
+                </form>
+                <p>By subscribing, you consent to our Privacy Policy and agree to recieve updates.</p>
+            </section>
+
+            <!-- quicklinks -->
+            <section class="quick-links">
+                <nav>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- connect with us -->
+            <section class="connect">
+                <nav>
+                    <h4>Connect with us</h4>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Xommunity</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <!-- stay updated -->
+            <section class="stay-updated">
+                <nav>
+                    <h4>Stay Updated</h4>
+                    <ul class="social-media-icons">
+                        <li><a href="#"><img src="images/webpLogos/linkedin.webp" alt="Linkedin account" width="20" height="20">  Linkedin</a></li>
+                        <li><a href="#"><img src="images/webpLogos/twitter.webp" alt="twitter account" width="20" height="20"> Twitter</a></li>
+                        <li><a href="#"><img src="images/webpLogos/facebook.webp" alt="facebook account" width="20" height="20"> facebook</a></li>
+                        <li><a href="#"><img src="images/webpLogos/youtubeBlack.webp" alt="youtube account" width="20" height="20"> Youtube</a></li>
+                        <li><a href="#"><img src="images/webpLogos/instagram.webp" alt="instagram account" width="20" height="20">  Instagram</a></li>
+                    </ul>       
+                </nav>        
+            </section>
+        </div>
+
+        <!-- second container -->
+        <div class="second-footer-container">
+            <p>&copy;<span id="currentYear"></span> Dream Weaver. All  rights reserved.</p>
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms of Use</li>
+                <li>Cookie Settings</li>
+            </ul>
+        </div>
+</footer>
 </body>
 </html>
